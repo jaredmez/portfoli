@@ -10,6 +10,9 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
 import { Content as About } from "./about.md";
 import getTags from "../scripts/getTags";
 
+import { Picture } from 'astro:assets';
+import myImage from '../assets/my-avi.png'
+
 const posts = await getCollection("posts");
 const tags = getTags(posts);
 ---
@@ -19,6 +22,7 @@ const tags = getTags(posts);
 	<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	<body>
 		<Header title={SITE_TITLE} />
+		<Picture src={myImage} formats={['avif', 'webp']} alt="My profile pic" width="250" />
 		<main>
 			<About />
 

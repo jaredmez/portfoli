@@ -1,8 +1,10 @@
 Welcome to my internet space!
 
-The tags at the bottom of the page are dynamically generated. The more tags you use, the more tags are added to the list! Posts are simple markdown files.
+I'm a software engineer with professional work experience in full stack web and mobile applications. I truly enjoy being outside of my comfort zone, which allows me to learn quickly and adapt cutting-edge solutions. 
 
-You should also check out [my newsletter](https://cassidoo.co/newsletter), or my word game [Jumblie](https://jumblie.com/?utm_campaign=blahgtmp&utm_source=github), or my [GitHub profile](https://github.com/cassidoo). Or don't. Follow your dreams.
+This site is currently under construction but I will be adding new features to personalize this page with side projects, more details about my hobbies, and working on finally adding a blog (really its just a journal that I'm comfortable with you reading haha). 
+
+
 
 It's using Astro and TinaCMS. You can [clone it on GitHub](https://github.com/cassidoo/blahg) to use it for yourself
 
